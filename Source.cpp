@@ -15,11 +15,15 @@ int main()
 	cout << "Nhap b: ";
 	cin >> b;
 	cout << "Tich la: "; 
+	cout << tong(a,b);
 	cout << tich(a, b)
 	system("pause");
 	return 0;
 }
 
+int tong(int a, int b){
+	return a+b;
+}
 
 int tich(int a, int b) {
 	return a * b;
