@@ -15,6 +15,7 @@ int main()
 	cin >> a;
 	cout << "Nhap b: ";
 	cin >> b;
+	cout << "Hieu a - b = " << hieu(a,b);
 	cout << "Tich la: "; 
 	cout << tich(a, b);
 	
@@ -24,6 +25,14 @@ int main()
 	return 0;
 }
 
+
+int hieu(int a, int b){
+	return a - b;
+}
+
+int tong(int a, int b){
+	return a+b;
+}
 
 int tich(int a, int b) {
 	return a * b;
