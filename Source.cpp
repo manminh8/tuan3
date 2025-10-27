@@ -15,7 +15,7 @@ int main()
 	cout << "Nhap b: ";
 	cin >> b;
 	cout << "Tich la: "; 
-	tich(a, b)
+	cout << tich(a, b)
 	system("pause");
 	return 0;
 }
