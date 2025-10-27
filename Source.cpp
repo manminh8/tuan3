@@ -5,6 +5,7 @@ int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
+void xuatC();
 
 int main()
 {
@@ -17,8 +18,9 @@ int main()
 	cout << "Hieu a - b = " << hieu(a,b);
 	cout << "Tich la: "; 
 	cout << tich(a, b);
-	cout << "Tong la: ";
-	cout << tong(a,b);
+	
+	xuatC();
+	
 	system("pause");
 	return 0;
 }
@@ -35,3 +37,7 @@ int tong(int a, int b){
 int tich(int a, int b) {
 	return a * b;
 }
+void xuatC(){
+	cout<<"C";
+}
+
